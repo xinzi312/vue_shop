@@ -9,6 +9,9 @@ import './assets/css/global.css'
 //导入字体图标样式
 import './assets/fonts/iconfont.css'
 
+import TreeTable from 'vue-table-with-tree-grid'
+Vue.component('tree-table',TreeTable)
+
 //全局配置axios
 import axios from 'axios'
 // import { config } from 'vue/types/umd'
