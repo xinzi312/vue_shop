@@ -189,7 +189,7 @@ export default {
         },
         // 选择项改变立即触发这个函数
         parentCateChange(){
-            // console.log(this.selectedKeys)
+            console.log(this.selectedKeys)
             //如果seletedKeys数组中的length大于0 证明选中的父级分类
             //繁殖 就说明没有选中任何父级分类
             if(this.selectedKeys.length>0){
