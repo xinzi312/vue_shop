@@ -295,7 +295,8 @@ export default {
             this.$refs.editFormRef.validate(async valid => {
             //    console.log(this.editForm)
                 if (valid) {
-                   const {data:res}=await this.$http.put(`categories/${this.cateId}/attributes/${this.editForm.attr_id}`,{
+                   const {data:res}=await this.$http.put(`categories/${this.cateId}/attributes/${this.editForm.attr_id}`,
+                   {
                        
                            attr_name:this.editForm.attr_name,
                            attr_sel:this.activeName
